@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pg:
+    container_name: fiber-auth-pg
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: fiber-pass
+      POSTGRES_USER: fiber-auth
+      POSTGRES_DB: fiber-auth
+    ports:
+    - 5432:5432

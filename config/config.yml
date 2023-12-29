@@ -1,0 +1,6 @@
+db:
+  url: localhost:5432
+  user: fiber-auth
+  password: fiber-pass
+  database: fiber-auth
+  options: sslmode=disable
